@@ -1,0 +1,3 @@
+var test:string = "this is a String";
+// test = 1;
+// test = function (a,b){return a+b;};
