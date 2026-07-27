@@ -1,8 +1,8 @@
-from fastapi import FastAPI, Depends
+from fastapi import FastAPI, Depends                   # Python internal packages import math
 from config import engine,create_schema,SessionLocal
-from database_models import Base
+from database_models import Base                       # Third party packages eg: import fastapi
 from sqlalchemy.orm import Session
-import schemas
+import schemas                                         # Internal modules eg: from app.serv
 import crud
 
 

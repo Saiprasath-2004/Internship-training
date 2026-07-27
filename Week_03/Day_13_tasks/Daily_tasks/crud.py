@@ -31,7 +31,7 @@ def create_post(db:Session, post:schemas.PostCreate):
     db.commit()
     db.refresh(new_post)
     return new_post
-
+           
 def get_all_users(db:Session):
     users = db.query(User).all()
     return users
